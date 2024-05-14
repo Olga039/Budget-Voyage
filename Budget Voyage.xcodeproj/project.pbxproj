@@ -37,7 +37,6 @@
 		773C24D42BEEA77700B2B949 = {
 			isa = PBXGroup;
 			children = (
-				16062C372BF3E96300886364 /* Trip.swift */,
 				773C24DF2BEEA77700B2B949 /* Budget Voyage */,
 				773C24DE2BEEA77700B2B949 /* Products */,
 			);
@@ -56,6 +55,7 @@
 			children = (
 				773C24E02BEEA77700B2B949 /* Budget_VoyageApp.swift */,
 				773C24E22BEEA77700B2B949 /* ContentView.swift */,
+				16062C372BF3E96300886364 /* Trip.swift */,
 				773C24E42BEEA77B00B2B949 /* Assets.xcassets */,
 				773C24E62BEEA77B00B2B949 /* Preview Content */,
 			);
