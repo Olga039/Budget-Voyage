@@ -10,27 +10,28 @@ import SwiftUI
 struct CreateTripView: View {
     var body: some View {
         
-        VStack {
-            Image("Background")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 200, height: 400)
-                .padding(.top, 20)
-            
-            Button(action: {
+        NavigationStack {
+            VStack {
+                Image("Background")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 400)
+                    .padding(.top, 20)
                 
-            }) {
-                Text("Create a Trip")
-                    .font(Font.custom("Baskerville-Bold", size: 26))
-                    .foregroundColor(.black)
-                
+                NavigationLink {
+                    MainNavigationView()
+                        .navigationBarBackButtonHidden()
+                } label: {
+                    Text("Create a Trip")
+                        .font(Font.custom("Baskerville-Bold", size: 26))
+                        .foregroundColor(.black)
+                        .padding()
+                        .background(Color.green)
+                        .cornerRadius(10)
+                        .frame(width: 200, height: 200)
+                        .padding()
+                }
             }
-            .padding()
-            .background(Color.green)
-            .cornerRadius(10)
-            .frame(width: 200, height: 200)
-            .padding()
-        
         }
     }
 }
