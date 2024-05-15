@@ -11,7 +11,8 @@ import SwiftUI
 struct Budget_VoyageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+            
         }
     }
 }
