@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16062C382BF3E96300886364 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16062C372BF3E96300886364 /* Trip.swift */; };
 		773C24E12BEEA77700B2B949 /* Budget_VoyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C24E02BEEA77700B2B949 /* Budget_VoyageApp.swift */; };
 		773C24E32BEEA77700B2B949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C24E22BEEA77700B2B949 /* ContentView.swift */; };
 		773C24E52BEEA77B00B2B949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773C24E42BEEA77B00B2B949 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16062C372BF3E96300886364 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		773C24DD2BEEA77700B2B949 /* Budget Voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773C24E02BEEA77700B2B949 /* Budget_VoyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_VoyageApp.swift; sourceTree = "<group>"; };
 		773C24E22BEEA77700B2B949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				773C24E02BEEA77700B2B949 /* Budget_VoyageApp.swift */,
 				E00EF9022BF53B7200BB26EF /* MainNavigationView.swift */,
 				773C24E22BEEA77700B2B949 /* ContentView.swift */,
+AsifVoyage
 				E00EF8FC2BF52E5E00BB26EF /* TripsView.swift */,
 				E00EF8FE2BF52E8300BB26EF /* BudgetView.swift */,
 				E00EF9002BF52EB100BB26EF /* ListsTripsView.swift */,
@@ -77,6 +80,9 @@
 				E00EF8FA2BF519E800BB26EF /* PageView.swift */,
 				E00EF8F62BF5195400BB26EF /* CreateTripView.swift */,
 				E00EF8EE2BF46DC300BB26EF /* SplashScreenView.swift */,
+
+				16062C372BF3E96300886364 /* Trip.swift */,
+main
 				773C24E42BEEA77B00B2B949 /* Assets.xcassets */,
 				773C24E62BEEA77B00B2B949 /* Preview Content */,
 			);
@@ -161,8 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+AsifVoyage
 				E00EF8FD2BF52E5E00BB26EF /* TripsView.swift in Sources */,
 				E00EF8FF2BF52E8300BB26EF /* BudgetView.swift in Sources */,
+				16062C382BF3E96300886364 /* Trip.swift in Sources */,
+ main
 				773C24E32BEEA77700B2B949 /* ContentView.swift in Sources */,
 				E00EF9032BF53B7200BB26EF /* MainNavigationView.swift in Sources */,
 				E00EF8FB2BF519E800BB26EF /* PageView.swift in Sources */,
